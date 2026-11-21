@@ -1,0 +1,60 @@
+.admin-container{
+    width: 80%;
+    height: 100vh;
+    margin-left: 150px;
+    background: white;
+}
+.title{
+    text-align: center;
+}
+.title p{
+   margin-left: 1100px;
+}
+.link-tag{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.link-tag:hover{
+    color: blue;
+}
+.new-product input{
+    width: 250px;
+    padding: 8px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+.new-product button{
+    width: 125px;
+    padding: 8px;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.products{
+    padding: 10px;
+    display: inline-flex;
+
+}
+.admin-product{
+    width: 550px;
+    height: 200px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+}
+.product-details{
+    padding: 10px;
+}
+.product-button{
+    text-align: center;
+}
+.admin-product button{
+    width: 100px;
+    padding: 10px;
+    align-items: center;
+}

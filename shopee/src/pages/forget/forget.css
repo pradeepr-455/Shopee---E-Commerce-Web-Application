@@ -1,0 +1,49 @@
+.main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    height: 400px;
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow:0 10px 25px rgb(0, 0, 0, 0.3);
+    margin: 0;
+}
+.container-row{
+    margin: 40px;
+    text-align: center;
+}
+.container-row span{
+    color: #ff0000;
+}
+.container-row1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.row-link{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+.row-link:hover{
+    color: black;
+}
+.submit-btn{
+    color: white;
+    background: blue;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    width: 70px;
+}

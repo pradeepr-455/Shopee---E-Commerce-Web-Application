@@ -1,0 +1,73 @@
+.main{
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.log-container{
+    width: 500px;
+    background: whitesmoke;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.log-container h3{
+    text-align: center;
+    margin: 0px;
+}
+
+span{
+    color: #0000ff;
+}
+
+.row{
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    display: grid;
+    padding: 10px;
+}
+
+.row input{
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.log-btn{
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background: #0000ff;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.new{
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.new a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+.new a:hover{
+    color: #0000ff;
+}
