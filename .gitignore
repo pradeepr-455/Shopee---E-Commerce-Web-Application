@@ -1,0 +1,24 @@
+# React
+shopee/node_modules/
+shopee/build/
+shopee/dist/
+
+# Django
+shopee_backend/shopee/
+shopee_backend/shopee/
+shopee_backend/__pycache__/
+shopee_backend/db.sqlite3
+shopee_backend/staticfiles/
+
+# Environment variables
+.env
+.env.*
+
+
+# Python
+*.pyc
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
